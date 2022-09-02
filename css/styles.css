@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #C7F9CC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 100px;
+  background-color: #2f4858;
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+nav .logo img {
+  height: 80%;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  margin-right: 20px;
+  font-size: 24px;
+}
+nav .links a:hover {
+  color: #38A3A5;
+}
+
+.topone {
+  min-height: 100%;
+  background-color: #57cc99;
+  margin: 30px;
+}
+.topone .row {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+}
+.topone .row .column {
+  display: flex;
+  float: left;
+}
+.topone .row .column img {
+  margin: 50px;
+  width: 100%;
+  border-color: #2f4858;
+  border-style: solid;
+  border-width: 3pt;
+  border-radius: 60%;
+  float: left;
+}
+.topone .row .column {
+  display: flex;
+  width: 45%;
+  height: 45%;
+}
+.topone .row .column h1 {
+  padding-top: 70px;
+  padding-left: 40px;
+  width: 30px;
+  color: #2f4858;
+  font-size: 26pt;
+}
+.topone .row .column p {
+  padding-top: 150px;
+  padding-left: 40px;
+  color: #2f4858;
+  font-size: 14pt;
+}
+
+.bottomone {
+  min-height: 100%;
+  background-color: #38a3a5;
+  margin: 30px;
+}
+.bottomone .row {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+}
+.bottomone .row .column {
+  display: flex;
+  float: left;
+}
+.bottomone .row .column img {
+  margin: 50px;
+  width: 100%;
+  border-color: white;
+  border-style: solid;
+  border-width: 3pt;
+  border-radius: 60%;
+  float: left;
+}
+.bottomone .row .column {
+  display: flex;
+  width: 45%;
+  height: 45%;
+}
+.bottomone .row .column h1 {
+  padding-top: 70px;
+  padding-left: 40px;
+  width: 30px;
+  color: white;
+  font-size: 26pt;
+}
+.bottomone .row .column p {
+  padding-top: 150px;
+  padding-left: 40px;
+  color: white;
+  font-size: 14pt;
+}
+
+footer {
+  height: 50px;
+  background-color: #2f4858;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=styles.css.map */

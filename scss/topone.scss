@@ -1,0 +1,47 @@
+.topone {
+  min-height: 100%;
+  background-color: #57cc99;
+  margin: 30px;
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    .column {
+        display: flex;
+        float: left;
+        img {
+            margin: 50px;
+            width: 100%;
+            border-color: #2f4858;
+            border-style: solid;
+            border-width: 3pt;
+            border-radius: 60%;
+            float: left;
+        }
+    }
+
+    .column{
+        display: flex;
+        width: 45%;
+        height: 45%;
+            h1 {
+                padding-top: 70px;
+                
+                padding-left: 40px;
+                width: 30px;
+                color: #2f4858;
+                font-size: 26pt;
+            }
+            p {
+                padding-top: 150px;
+                padding-left: 40px;
+                color: #2f4858;
+                font-size: 14pt;
+                
+            }
+    }
+}
+}
